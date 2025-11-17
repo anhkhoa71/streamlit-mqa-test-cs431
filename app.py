@@ -142,17 +142,6 @@ def main(model_path="anhkhoa71/viT5-ViQuaD"):
                 st.exception(e)
     else:
         st.info("👆 Vui lòng upload file PDF để bắt đầu")
-    
-    st.markdown("---")
-    st.markdown(
-        """
-        <div style='text-align: center'>
-            <p>📚 Hệ thống Sinh Câu hỏi Trắc nghiệm Tự động</p>
-            <p>Powered by ViT5 & Streamlit</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
 
 
 if __name__ == "__main__":
